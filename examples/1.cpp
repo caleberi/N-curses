@@ -4,7 +4,8 @@
 int main()
 {
     initscr();
-    addch('H');
+    noecho();
+    addch('H'| A_BOLD | A_COLOR);
     addch('E');
     addch('L');
     addch('L');

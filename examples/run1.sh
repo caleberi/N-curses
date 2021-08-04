@@ -1,1 +1,0 @@
-g++ -lncurses -o 1.out 1.cpp
